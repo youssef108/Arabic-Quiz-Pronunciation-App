@@ -1,0 +1,16 @@
+[
+    {
+        "question": "Say the correct word to complete the following ayah:",
+        "ayah": "..... بسم الله الرحمن",
+        "complete_sentence": "بسم الله الرحمن الرحيم",
+        "options": ["التواب", "الرحيم", "الكريم"],
+        "answer": "الرحيم"
+    },
+    {
+        "question": "Say the correct word to complete the following ayah:",
+        "ayah": "...... يا أيها الناس اعبدوا ربكم الذي خلقكم والذين من قبلكم لعلكم ",
+        "complete_sentence": "يا أيها الناس اعبدوا ربكم الذي خلقكم والذين من قبلكم لعلكم تتقون",
+        "options": ["تتقون", "تنصرون", "تفلحون"],
+        "answer": "تتقون"
+    }
+]

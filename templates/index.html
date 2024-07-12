@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qupil</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Quraan quiz</h1>
+    </div>
+    <div class="container">
+        <h2 id="question"></h2>
+        <p id="ayah"></p>
+        <div class="options" id="options"></div>
+        <button id="recordButton" class="start">Start Recording</button>
+        <p id="statusMessage"></p>
+        <p id="recognizedText"></p>
+        <i id="statusIcon" class="status-icon"></i>
+        <button id="continueButton" class="continue">Continue</button>
+        <button id="pronounceButton" class="pronounce">Pronounce Correct Answer</button>
+        <div id="endQuiz" class="end-quiz">
+            <h2 class="end-quiz-text">End of Quiz</h2>
+            <p>Total Attempts: <span id="totalAttempts"></span></p>
+            <p>Correct Attempts: <span id="correctAttempts"></span></p>
+            <p>Wrong Attempts: <span id="wrongAttempts"></span></p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

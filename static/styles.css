@@ -1,0 +1,114 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    background-color: #3cb7be;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    color: white; /* Set text color to white */
+}
+
+.header h1 {
+    font-size: 3em; /* Increase the font size */
+    margin: 0;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px; /* Add some top margin to avoid overlap with the fixed header */
+}
+
+.container h2 {
+    font-size: 1.6em;
+    margin: 20px 0;
+    color: #31969b;
+}
+
+.container p {
+    font-size: 1.6em;
+    margin: 10px 0;
+    color: #31969b;
+}
+
+.options {
+    display: flex;
+    font-size: 1.2em;
+    gap: 50px; /* Add some space between the options */
+    margin: 20px 0;
+    color: #31969b;
+}
+
+.options span {
+    font-size: 1.2em;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px 30px; /* Increased padding to make buttons bigger */
+    font-size: 18px; /* Increased font size */
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px; /* Add rounded corners */
+}
+
+button.start {
+    background-color: #31969b; /* Yellow */
+}
+
+button.stop {
+    background-color: #174749; /* Dark blue */
+}
+
+button.continue {
+    background-color: #FFD700; /* Yellow */
+    display: none; /* Hidden by default */
+}
+
+button.pronounce {
+    background-color: #ffa07a; /* Light salmon */
+    display: none; /* Hidden by default */
+}
+
+.status-icon {
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+.end-quiz {
+    display: none; /* Hidden by default */
+}
+
+.end-quiz-text {
+    color: #add8e6; /* Light blue */
+}
+
+#correctAttempts {
+    color: #90ee90; /* Light green */
+}
+
+#wrongAttempts {
+    color: red;
+}
