@@ -54,7 +54,7 @@ Open a web browser and go to http://127.0.0.1:5000/ to access the Quraan Voice Q
 - Speech recognition accuracy may vary based on the quality of the microphone, ambient noise, and the clarity of the user's speech.
 - Network issues can affect the performance of the speech recognition service.
 ## Areas of Improvement
-- Enhanced error handling and feedback for different types of errors.
-- Improved UI with better animations and visual cues.
+- Enhance error handling and feedback for different types of errors.
+- Improve UI with better animations and visual cues.
 - Customization options for quiz settings.
 
