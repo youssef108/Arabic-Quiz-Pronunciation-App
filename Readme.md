@@ -23,8 +23,8 @@ Quraan Voice Quiz is a web-based application that presents a series of questions
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/qupil-voice-quiz.git
-cd qupil-voice-quiz
+git clone https://github.com/youssef108/Arabic-Quiz-Pronunciation-App.git
+cd Arabic-Quiz-Pronunciation-App
 ```
 
 ### 2. Install the required Python packages
