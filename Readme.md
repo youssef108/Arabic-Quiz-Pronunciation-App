@@ -41,7 +41,7 @@ pip install Flask SpeechRecognition gTTS pyaudio
 python app.py
 ```
 ### 5. Access the application
-Open a web browser and go to http://127.0.0.1:5000/ to access the Qupil Voice Quiz application.
+Open a web browser and go to http://127.0.0.1:5000/ to access the Quraan Voice Quiz application.
 
 ## Usage Instructions
 - Click on the "Start Recording" button to begin answering the quiz questions.
